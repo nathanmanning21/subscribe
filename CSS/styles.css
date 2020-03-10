@@ -78,7 +78,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (max-width: 415px) {
   .container {
     width: 450px;
   }
@@ -86,6 +86,28 @@
     width: 400px;
   }
   .subscribe-text {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 414px) {
+  .col-sm-6 {
+    margin-left: -7px;
+  }
+  .container {
+    width: 350px;
+  }
+  .subscribe h1 {
+    margin-left: 25px;
+  }
+  .subscribe p {
+    width: 400px;
+  }
+  .subscribe-text {
+    margin-left: 15px;
+  }
+  .img {
+    height: 300px;
     margin-left: 30px;
   }
 }
