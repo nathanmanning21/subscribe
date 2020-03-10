@@ -78,7 +78,7 @@ $btnColor: #ad0026;
     max-width: 865px;
 }
 }
-@media (max-width: 991px) and (max-width: 415px){
+@media (max-width: 991px) {
 
    .container{
        width: 450px;
@@ -92,3 +92,8 @@ $btnColor: #ad0026;
    }
 }
 
+@media (max-width: 414px){
+    .subscribe-text{
+        margin-left: 15px;
+    }
+}
